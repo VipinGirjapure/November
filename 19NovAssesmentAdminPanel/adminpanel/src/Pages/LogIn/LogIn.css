@@ -1,0 +1,26 @@
+.LogInContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 88vh;
+      width:100%; */
+    /* background-image: url("https://img.freepik.com/free-vector/cloudy-purple-pink-background_91008-257.jpg?w=996&t=st=1668505313~exp=1668505913~hmac=e2b3c167f6301b74f7c7d8e2acd4e481e12afb373db4cf55c0cba4357c57ad55");
+    background-position: center;
+    background-repeat: no-repeat; */
+  }
+  .log-in-box {
+    border: 1px solid #74BDCB;
+    color:#FFA384;;
+    border-radius: 15px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 22px 15px;
+    box-shadow: 7px 5px 6px #74BDCB;
+    color:#FFA384;
+    
+  }
+  

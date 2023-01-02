@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* padding: 2px 25px; */
+  background-color: dodgerblue;
+  margin: 0;
+}
+.logo {
+  /* height: 35px;
+  margin: 2px 15px; */
+}
+
+.footer-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+  color: white;
+}
+.footer-items > * {
+  margin: 0px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.footer-items > *:hover {
+  color: gray;
+}

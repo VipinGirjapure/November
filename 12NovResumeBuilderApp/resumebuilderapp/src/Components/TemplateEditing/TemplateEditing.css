@@ -1,0 +1,74 @@
+.editing-component1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.editing-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.template{
+    border: 1px solid grey;
+    padding: 5px 15px;
+    width: 840px;
+    margin: 5px 0;
+}
+.template1-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: orange;
+}
+.profile-photo{
+    background-color: dodgerblue;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: white;
+}
+.name-designation{
+    margin: 1px 5px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+}
+.name>*{
+   margin: 0 2px;
+}
+
+.designation{
+    font-size: 25px;
+}
+.address{
+    font-size: small;
+}
+.about1{
+font-size: small;
+margin: 2px 0 5px;
+}
+
+.add-information-box{
+    width: 36%;
+    height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+}
+.experience-company-designation{
+    font-size: large;
+    font-weight: bold;
+    margin-right: 2px;
+}

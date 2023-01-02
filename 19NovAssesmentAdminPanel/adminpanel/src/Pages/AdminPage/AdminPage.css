@@ -1,0 +1,41 @@
+.admin-page{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 80vh;
+    /* border: 1px solid black; */
+    flex-direction: column;
+
+}
+.heading-text{
+    font-size: 30px;
+    color:#FFA384;
+    text-align: center;
+    text-decoration: underline  #74BDCB;
+    margin: 55px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.preview-box{
+    margin-top: 5px;
+}
+input[type="file"]::file-selector-button {
+    border: 2px solid  #74BDCB;
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
+    background-color:white;
+    transition: 1s;
+    cursor: pointer;
+    color: #FFA384;
+    
+  }
+  

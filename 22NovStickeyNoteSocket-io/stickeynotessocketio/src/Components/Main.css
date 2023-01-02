@@ -1,0 +1,51 @@
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  flex-direction: column;
+}
+.main-add-note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid black;
+  flex-direction: column;
+}
+button {
+  height: 35px;
+  background-color: gold;
+  color: white;
+  border: 0.2px solid gold;
+  margin-top: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.notes-list {
+  min-height: 30vh;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.notes-list-container {
+  border: 1px solid gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  background-color:white ;
+border-radius: 5px;}
+.notes-list-container-item {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

@@ -1,0 +1,21 @@
+.LogInContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .log-in-box {
+    border: 1px solid lightgreen;
+
+    border-radius: 15px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 22px 15px;
+    /* box-shadow: 7px 5px 6px lightgreen; */
+    color:#FFA384;
+    
+  }
+  

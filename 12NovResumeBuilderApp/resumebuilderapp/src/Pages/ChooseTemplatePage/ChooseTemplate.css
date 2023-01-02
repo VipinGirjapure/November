@@ -1,0 +1,16 @@
+.template-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 54px 35px;
+    flex-wrap: wrap;
+}
+.template-container>*{
+    margin: 5px;
+    height: 450px;
+    transition: 0.5s;
+}
+.template-container>*:hover{
+ box-shadow: 5px 5px 5px grey;
+}
+

@@ -1,0 +1,91 @@
+.editing-component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.template{
+
+    padding: 5px 15px;
+    width: 840px;
+}
+.template-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b2436f;
+    color: white;
+    padding: 22px 10px;
+    letter-spacing: -0.2px;
+
+
+}
+.profile-photo{
+    background-color: dodgerblue;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: white;
+}
+.name-designation{
+    margin: 1px 5px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    letter-spacing: -0.2px;
+
+    
+}
+.name>*{
+    text-transform: capitalize;
+   margin: 0 2px;
+}
+
+.designation{
+    font-size: 25px;
+}
+.address{
+    font-size: small;
+}
+.about{
+background-color: #b2436f;
+color: white;
+padding: 19px;
+line-height: 18px;
+font-size: 15px;
+
+}
+
+.add-information-box{
+    /* width: 6%; */
+    height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+}
+.experience-company-designation{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.experience-company-name{
+    width: 50%;
+}

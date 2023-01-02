@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.tsx test suit snapshot testing 1`] = `
+<div>
+  <div
+    align="center"
+    class="MuiGrid-root css-bs0e0n-MuiGrid-root"
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      data-testid="asteroidId"
+    >
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+      >
+        <input
+          aria-invalid="false"
+          class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+          id=":r5:"
+          placeholder="Enter Astroid Id"
+          type="text"
+          value=""
+        />
+        <fieldset
+          aria-hidden="true"
+          class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="css-ihdtdm"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <br />
+    <button
+      class="MuiButtonBase-root Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-150vanc-MuiButtonBase-root-MuiButton-root"
+      data-testid="submitBtn"
+      disabled=""
+      tabindex="-1"
+      type="button"
+    >
+      Submit
+    </button>
+    <br />
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+      data-testid="randomId"
+      tabindex="0"
+      type="button"
+    >
+      Random Astroid
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root css-1ji7omv-MuiBackdrop-root"
+      style="opacity: 0; visibility: hidden;"
+    />
+  </div>
+</div>
+`;

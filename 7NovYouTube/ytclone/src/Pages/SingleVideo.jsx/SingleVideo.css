@@ -1,0 +1,26 @@
+.single-video-page {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 22px;
+ 
+}
+.single-video-details {
+  border: 1px solid black;
+  background-color: black;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+
+  font-size: 18px;
+  padding: 15px 0;
+
+  color: white;
+}
+.single-video-description {
+  color: white;
+  
+}

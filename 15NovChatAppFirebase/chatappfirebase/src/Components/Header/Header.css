@@ -1,0 +1,13 @@
+.header-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 1px solid purple;
+    padding: 5px 15px;
+}
+.header-container>*{
+    font-weight: bold;
+    font-size: larger;
+    color: purple;
+}

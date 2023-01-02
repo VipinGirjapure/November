@@ -1,0 +1,13 @@
+.header-container{
+    height: 4vh;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+.heading{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}

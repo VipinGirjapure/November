@@ -1,0 +1,33 @@
+.list-left-box {
+  width: 346px;
+  /* height:78vh; */
+  border: 1px solid black;
+}
+.chat-box {
+  /* width: 70vw; */
+
+  border: 1px solid black;
+}
+.user-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  cursor: pointer;
+  padding: 5px 0;
+}
+.user-list :hover {
+  background-color: #c59fc5;
+}
+.textF{
+    outline: none !important;
+}
+* for change border color*/
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #5EA841 !important;
+}
+
+/*for change label color in focus state*/
+.MuiFormLabel-root.Mui-focused{
+    color: #212121 !important;
+}

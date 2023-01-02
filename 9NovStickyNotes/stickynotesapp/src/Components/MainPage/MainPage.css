@@ -1,0 +1,41 @@
+.main-page {
+  min-height: 95vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: lightsteelblue;
+}
+.add-note-btn {
+  border: 1px solid white;
+  border-radius: 15px;
+
+  margin: 5px;
+  padding: 5px;
+  font-weight: bolder;
+  background-color: white;
+
+  cursor: pointer;
+}
+.add-note-btn:hover {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+  background-color: lightsteelblue;
+  color: white;
+  font-weight: bolder;
+}
+.input-note-item {
+  outline: none;
+  border: none;
+  font-size: larger;
+  width: 240px;
+}
+.sticky-note-text {
+  font-size: large;
+  font-family: cursive;
+  text-transform: capitalize;
+  font-style: italic;
+  min-height: 170px;
+  outline: none;
+  border: none;
+}

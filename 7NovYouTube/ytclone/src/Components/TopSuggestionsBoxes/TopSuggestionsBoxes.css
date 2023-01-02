@@ -1,0 +1,44 @@
+.top-suggestions-boxes {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  height: 50px;
+  /* border: 1px solid red; */
+  margin-top: 12vh;
+  flex-wrap: wrap;
+}
+
+.top-suggestions-boxes-item {
+  height: 30px;
+  width: 100px;
+  margin: 5px 10px;
+  background-color: rgba(128, 128, 128, 0.699);
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 2px;
+}
+.comments-and-suggestion-section {
+  display: flex;
+  width: 100%;
+}
+.comments-and-suggestion-section-comments-comp{
+    width: 75%;
+    /* background-color: black; */
+    height: fit-content;
+}
+.comments-and-suggestion-section-main-comp{
+    width: 25%;
+    /* background-color: black; */
+    height: fit-content;
+}
+@media (max-width:1050px) {
+  .comments-and-suggestion-section {
+  flex-direction: column;
+  width: 100%;
+
+  }
+}
